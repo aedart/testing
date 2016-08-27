@@ -1,0 +1,42 @@
+{
+  "name": "aedart/testing",
+  "description": "Various testing utilities for php",
+  "keywords": [
+    "Testing",
+    "Utilities",
+    "Test Cases"
+  ],
+  "homepage": "https://github.com/aedart/testing",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alin Eugen Deac",
+      "email": "aedart@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "codeception/codeception": "2.2.*",
+    "fzaninotto/faker": "1.6.*",
+    "mockery/mockery": "0.9.*"
+  },
+  "require-dev": {
+    "aedart/license": "1.*",
+    "aedart/license-file-manager": "~1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aedart\\Testing\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "scripts": {
+    "post-update-cmd": "vendor/bin/license-manager license:copy vendor/aedart/license/aedart/BSD-3-Clause"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
