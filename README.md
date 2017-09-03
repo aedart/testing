@@ -20,8 +20,6 @@ Various utilities for testing php code.
 composer require aedart/testing
 ```
 
-This package uses [composer](https://getcomposer.org/). If you do not know what that is or how it works, I recommend that you read a little about, before attempting to use this package.
-
 ## Quick start
 
 ### Base Unit Test Case
