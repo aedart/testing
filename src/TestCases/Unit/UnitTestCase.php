@@ -6,6 +6,8 @@ use Faker\Factory;
 use \Mockery as m;
 
 /**
+ * @deprecated Replaced by \Aedart\Testing\TestCases\UnitTestCase in aedart\athenaeum package
+ *
  * Unit TestCase
  *
  * Base test-case for codeception unit tests.

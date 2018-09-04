@@ -3,7 +3,9 @@
 [![Latest Unstable Version](https://poser.pugx.org/aedart/testing/v/unstable)](https://packagist.org/packages/aedart/testing)
 [![License](https://poser.pugx.org/aedart/testing/license)](https://packagist.org/packages/aedart/testing)
 
-# Testing
+# Deprecated - Testing
+
+Package has been replaced by [aedart/athenaeum](https://github.com/aedart/athenaeum)
 
 Various utilities for testing php code.
 
